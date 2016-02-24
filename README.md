@@ -12,3 +12,5 @@ Use it for whatever you want, just make sure to credit me.
 Creds to nano for helping me get into RE and some help like the FindString or CalcAbsAddress stuff. 
 Creds to fami for the new menu sketchup, even though I was too lazy to actually ever implent it :v:
 I don't think anybody else helped me with this.
+
+Don't forget to change the hash.
