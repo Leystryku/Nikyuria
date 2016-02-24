@@ -10,7 +10,16 @@ The cheat used to work for csgo, tf2, gmod, css and it probably would've worked 
 Use it for whatever you want, just make sure to credit me.
 
 Creds to nano for helping me get into RE and some help like the FindString or CalcAbsAddress stuff. 
+
 Creds to fami for the new menu sketchup, even though I was too lazy to actually ever implent it :v:
+
+Creds to James & Sasha for moral support
+
+Creds to Matt for killing my fishes with too much fodder
+
+Creds to Nub for financial help
+
+
 I don't think anybody else helped me with this.
 
 Don't forget to change the hash.
