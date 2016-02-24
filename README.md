@@ -7,3 +7,5 @@ it doesn'T really matter.
 
 
 Use it for whatever you want, just make sure to credit me.
+
+Creds to nano for helping me get into RE and some help like the FindString or CalcAbsAddress stuff. 
