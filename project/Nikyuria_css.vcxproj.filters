@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu_panels">
+      <UniqueIdentifier>{07BA92CB-F3DE-E14B-1C2A-C7DB08AEE069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk">
+      <UniqueIdentifier>{F24F6F6F-DE48-8EC1-077B-7346F3D26DCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\usercmd">
+      <UniqueIdentifier>{A3775FF2-8F06-E9BB-3825-FDB62493F961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk">
+      <UniqueIdentifier>{BA501D27-A649-3C79-CF7B-21FEBBD31B85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\usercmd">
+      <UniqueIdentifier>{6B9C30DF-572B-BAA8-004A-CEA3ECB7CA4E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\d3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu_panels\ebutton.h">
+      <Filter>Header Files\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu_panels\echeckbox.h">
+      <Filter>Header Files\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu_panels\eframe.h">
+      <Filter>Header Files\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu_panels\elabel.h">
+      <Filter>Header Files\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu_panels\epanel.h">
+      <Filter>Header Files\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu_panels\eslider.h">
+      <Filter>Header Files\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu_panels\etextbox.h">
+      <Filter>Header Files\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\nigauth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\nikyuria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\process_usercmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\basehandle.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\buf.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\client.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\clientclass.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\color.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\cusercmd.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\dbg.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\engine.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\enginetrace.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\entlist.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\externfuncs.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\globals.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\ientity.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\inetchannel.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\interface.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\ivoicecodec.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\lua.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\md5.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\modelinfo.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\netvars.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\player_info.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\pred.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\sdk.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\vector.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\usercmd\bots.h">
+      <Filter>Header Files\usercmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\usercmd\bunnyhop.h">
+      <Filter>Header Files\usercmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\usercmd\chat.h">
+      <Filter>Header Files\usercmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\usercmd\hvh.h">
+      <Filter>Header Files\usercmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\usercmd\namechanger.h">
+      <Filter>Header Files\usercmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\usercmd\weapon.h">
+      <Filter>Header Files\usercmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\vmthook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\d3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nigauth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nikyuria.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\overlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sdk\buf.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sdk\engine.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sdk\ientity.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sdk\md5.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sdk\netvars.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sdk\sdk.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usercmd\bots.cpp">
+      <Filter>Source Files\usercmd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usercmd\bunnyhop.cpp">
+      <Filter>Source Files\usercmd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usercmd\chat.cpp">
+      <Filter>Source Files\usercmd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usercmd\hvh.cpp">
+      <Filter>Source Files\usercmd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usercmd\namechanger.cpp">
+      <Filter>Source Files\usercmd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\usercmd\weapon.cpp">
+      <Filter>Source Files\usercmd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\vmthook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

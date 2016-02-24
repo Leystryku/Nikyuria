@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7C0090F2-6863-1F97-11E9-574DFD2AEB19}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Nikyuria_tf2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>C:\Nikyuria\dll\</OutDir>
+    <IntDir>obj\Debug\Nikyuria_tf2\</IntDir>
+    <TargetName>teamfortress2</TargetName>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>C:\Nikyuria\dll\</OutDir>
+    <IntDir>obj\Release\Nikyuria_tf2\</IntDir>
+    <TargetName>teamfortress2</TargetName>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>DEBUG;_TF2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <OmitFramePointers>true</OmitFramePointers>
+      <StringPooling>true</StringPooling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/Qpar /Qfast_transcendentals /GL /Ox /Gm /MP /GR- /MD /Gy /Gw %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>C:\Nikyuria\dll\teamfortress2.lib</ImportLibrary>
+      <AdditionalOptions>/OPT:REF /OPT:ICF /LTCG %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_TF2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <OmitFramePointers>true</OmitFramePointers>
+      <StringPooling>true</StringPooling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/Qpar /Qfast_transcendentals /GL /Ox /Gm /MP /GR- /MD /Gy /Gw %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>C:\Nikyuria\dll\teamfortress2.lib</ImportLibrary>
+      <AdditionalOptions>/OPT:REF /OPT:ICF /LTCG %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\d3d.h" />
+    <ClInclude Include="..\src\global.h" />
+    <ClInclude Include="..\src\hooks.h" />
+    <ClInclude Include="..\src\menu.h" />
+    <ClInclude Include="..\src\menu_panels\ebutton.h" />
+    <ClInclude Include="..\src\menu_panels\echeckbox.h" />
+    <ClInclude Include="..\src\menu_panels\eframe.h" />
+    <ClInclude Include="..\src\menu_panels\elabel.h" />
+    <ClInclude Include="..\src\menu_panels\epanel.h" />
+    <ClInclude Include="..\src\menu_panels\eslider.h" />
+    <ClInclude Include="..\src\menu_panels\etextbox.h" />
+    <ClInclude Include="..\src\nigauth.h" />
+    <ClInclude Include="..\src\nikyuria.h" />
+    <ClInclude Include="..\src\overlay.h" />
+    <ClInclude Include="..\src\process_usercmd.h" />
+    <ClInclude Include="..\src\sdk\basehandle.h" />
+    <ClInclude Include="..\src\sdk\buf.h" />
+    <ClInclude Include="..\src\sdk\client.h" />
+    <ClInclude Include="..\src\sdk\clientclass.h" />
+    <ClInclude Include="..\src\sdk\color.h" />
+    <ClInclude Include="..\src\sdk\cusercmd.h" />
+    <ClInclude Include="..\src\sdk\dbg.h" />
+    <ClInclude Include="..\src\sdk\engine.h" />
+    <ClInclude Include="..\src\sdk\enginetrace.h" />
+    <ClInclude Include="..\src\sdk\entlist.h" />
+    <ClInclude Include="..\src\sdk\externfuncs.h" />
+    <ClInclude Include="..\src\sdk\globals.h" />
+    <ClInclude Include="..\src\sdk\ientity.h" />
+    <ClInclude Include="..\src\sdk\inetchannel.h" />
+    <ClInclude Include="..\src\sdk\interface.h" />
+    <ClInclude Include="..\src\sdk\ivoicecodec.h" />
+    <ClInclude Include="..\src\sdk\lua.h" />
+    <ClInclude Include="..\src\sdk\md5.h" />
+    <ClInclude Include="..\src\sdk\modelinfo.h" />
+    <ClInclude Include="..\src\sdk\netvars.h" />
+    <ClInclude Include="..\src\sdk\player_info.h" />
+    <ClInclude Include="..\src\sdk\pred.h" />
+    <ClInclude Include="..\src\sdk\sdk.h" />
+    <ClInclude Include="..\src\sdk\vector.h" />
+    <ClInclude Include="..\src\stdafx.h" />
+    <ClInclude Include="..\src\targetver.h" />
+    <ClInclude Include="..\src\usercmd\bots.h" />
+    <ClInclude Include="..\src\usercmd\bunnyhop.h" />
+    <ClInclude Include="..\src\usercmd\chat.h" />
+    <ClInclude Include="..\src\usercmd\hvh.h" />
+    <ClInclude Include="..\src\usercmd\namechanger.h" />
+    <ClInclude Include="..\src\usercmd\weapon.h" />
+    <ClInclude Include="..\src\utils.h" />
+    <ClInclude Include="..\src\vmthook.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\d3d.cpp" />
+    <ClCompile Include="..\src\global.cpp" />
+    <ClCompile Include="..\src\hooks.cpp" />
+    <ClCompile Include="..\src\menu.cpp" />
+    <ClCompile Include="..\src\nigauth.cpp" />
+    <ClCompile Include="..\src\nikyuria.cpp" />
+    <ClCompile Include="..\src\overlay.cpp" />
+    <ClCompile Include="..\src\sdk\buf.cpp" />
+    <ClCompile Include="..\src\sdk\engine.cpp" />
+    <ClCompile Include="..\src\sdk\ientity.cpp" />
+    <ClCompile Include="..\src\sdk\md5.cpp" />
+    <ClCompile Include="..\src\sdk\netvars.cpp" />
+    <ClCompile Include="..\src\sdk\sdk.cpp" />
+    <ClCompile Include="..\src\stdafx.cpp" />
+    <ClCompile Include="..\src\usercmd\bots.cpp" />
+    <ClCompile Include="..\src\usercmd\bunnyhop.cpp" />
+    <ClCompile Include="..\src\usercmd\chat.cpp" />
+    <ClCompile Include="..\src\usercmd\hvh.cpp" />
+    <ClCompile Include="..\src\usercmd\namechanger.cpp" />
+    <ClCompile Include="..\src\usercmd\weapon.cpp" />
+    <ClCompile Include="..\src\utils.cpp" />
+    <ClCompile Include="..\src\vmthook.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
