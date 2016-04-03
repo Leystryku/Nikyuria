@@ -349,7 +349,7 @@ public:
 
 	inline void authfuck()
 	{
-		MessageBox(0, 0, L"FUKED LEL", 0);
+		MessageBox(0, L"Autism mode, activated.", 0, 0);
 	}
 };
 
