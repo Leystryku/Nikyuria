@@ -255,7 +255,7 @@ std::string m_sdk::Init()
 	if (!Plat_FloatTime)
 		return "No Plat_FloatTime!\n";
 
-	void*codecdll1 = (void*)LoadLibraryA("C://Nikyuria//dll//vaudio_silk.dll");
+	/*void*codecdll1 = (void*)LoadLibraryA("C://Nikyuria//dll//vaudio_silk.dll");
 
 	if (!codecdll1)
 		return "No encode codec silk!\n";
@@ -270,7 +270,7 @@ std::string m_sdk::Init()
 		return "No encode codec silk!\n";
 
 	if (!vencodecodec->Init(4))
-		return "Couldn't initialize codec silk!\n";
+		return "Couldn't initialize codec silk!\n";*/
 
 
 #ifdef _CSGO
