@@ -113,7 +113,6 @@ void m_HvH::DoFakeCrouch(CUserCmd *pCmd, bool* bSendPacket)
 	}
 
 	return;
-
 #endif
 	
 	static bool bDuck = false;
