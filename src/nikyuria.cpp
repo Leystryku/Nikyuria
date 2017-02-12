@@ -85,7 +85,6 @@ int DllInit()
 	char banana[10];
 	sprintf(banana, "%i", authhash);
 //	MessageBoxA(NULL, banana, "k", MB_OK);
-
 	if (authhash == 1414886425)
 	{
 		Nikyuria::Init();
